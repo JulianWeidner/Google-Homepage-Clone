@@ -1,0 +1,25 @@
+
+body{
+    display: block;
+}
+.header {
+    padding: 15px;
+    color: black;
+    opacity: .75;
+    text-decoration: none;
+}
+
+
+
+#leftHeader{
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    
+}
+
+#rightHeader{
+    display: inline-block;
+    text-align: right;
+    position: relative;
+}

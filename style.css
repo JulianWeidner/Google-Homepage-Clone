@@ -1,0 +1,13 @@
+header {
+    display: inline-block;
+    color: black;
+    opacity: .75;
+}
+
+header left{
+    text-align: left;
+}
+
+header right{
+    text-align: right;
+}
