@@ -71,15 +71,50 @@ li{
 
 .searchBar input {
 
-    width: 35%;
+    width: 60%;
     border-style: solid;
     border-width: 10px;
-    border-color: black;
+    border-color: white;
+    box-shadow: .5px 2px 7px rgb(134, 134, 134);
     height: 18px;
     overflow: hidden;
 }
 
+.buttons {
+    text-align: center;
+    margin-top: 30px;
+    
+    height: 20px;
+}
 
+.buttons input {
+    border-style: none;
+    height: 35px;
+    color: #757575;
+    background-color:#f2f2f2;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+input:focus { /*this removes the border highlight on selection*/
+    outline: none; 
+}
+
+.footer {
+
+    margin-top: 325px;
+    border-top-style: solid;
+    border-top: 2px;
+    min-width: 980px;
+    background-color: #f2f2f2;
+    border-top-color: #e4e4e4;
+    
+    
+}
 /***** id ****/
 a#accIcon {
     font-size: 18px;
@@ -88,5 +123,9 @@ a#accIcon {
     background-color: #00b3b3;
     border-radius: 50%;
 
+}
+
+a#footerRight {
+    float: right;
 }
 
