@@ -2,4 +2,13 @@ The Odin Project: Creating a copied Google Homepage
 (http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
 Julian Weidner
 
-I hope that one day I can look back on this, laugh, and say,"What a moron."
+Things I took away a lot from this:
+
+inline, block, inline-block
+div class="style" and how to apply it? I think
+margins
+padding
+borders
+widths
+heights
+for non-responsive design
